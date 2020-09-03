@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f02277f-0595-40ce-87cc-8614d9b6ddac" name="Default Changelist" comment="" />
+    <list default="true" id="7f02277f-0595-40ce-87cc-8614d9b6ddac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/products.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +32,16 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gn42CeYlh1PqFXW0PB0DmMdwog" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.10.1" />
@@ -33,33 +59,49 @@
       <option name="presentableId" value="Default" />
       <updated>1598736813416</updated>
       <workItem from="1598736815192" duration="3936000" />
+      <workItem from="1599003496101" duration="1552000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="434" y="187" key="#Notifications" timestamp="1598737305263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="187" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1598737305263" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1598741190283">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599003799910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598741190283" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1598741190283">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599003799910" />
+    <state width="442" height="179" key="GridCell.Tab.0.bottom" timestamp="1599005026939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598741190283" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1598741190283">
+    <state width="442" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599005026939" />
+    <state width="442" height="179" key="GridCell.Tab.0.center" timestamp="1599005026939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598741190283" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1598741190283">
+    <state width="442" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599005026939" />
+    <state width="442" height="179" key="GridCell.Tab.0.left" timestamp="1599005026939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598741190283" />
+    <state width="442" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599005026939" />
+    <state width="442" height="179" key="GridCell.Tab.0.right" timestamp="1599005026939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="442" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599005026939" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598741190284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -108,6 +150,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1598741190284" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1599004536872">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1599004536872" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1598740337373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
