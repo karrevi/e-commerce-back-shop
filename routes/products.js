@@ -34,6 +34,23 @@ router.get('/', function (req, res) {
       'p.image',
       'p.id'
     ])
+    .slice(startValue, endValue)
+    .sort({
+      id: .1
+    })
+    .getAll()
+    .then(prods => {
+      if (prods.length > 0) {
+        res.status(200).json({
+          count: prods.length,
+          products: prods
+        });
+      } else {
+        res.json({
+          message: 'No products founds'
+        });
+      }
+    }).catch(err => console.log(err));
 });
 
 module.exports = router;
