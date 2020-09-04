@@ -58,10 +58,10 @@ router.get('/:prodId', (req, res) => {
   database.table('products as p')
     .join([{
       table: 'categories as c',
-      on: `c.id = p.cat_id`
+      on: 'c.id = p.cat_id'
     }])
     .withFields(['c.title as category',
-      '"p.title as name"',
+      'p.title as name',
       'p.price',
       'p.quantity',
       'p.description',
@@ -70,7 +70,7 @@ router.get('/:prodId', (req, res) => {
       'p.id'
     ])
     .filter({
-      'p-id': productId
+      'p.id': productId
     })
     .get()
     .then(prod => {
