@@ -9,11 +9,11 @@ const cors = require('cors');
 
 // Import Routes
 const productsRouter = require('./routes/products');
-const usersRouter = require('./routes/users');
+const usersRouter = require('./routes/orders');
 
 // Use Routes
 app.use('/api/products', productsRouter);
-app.use('/api/users', usersRouter);
+app.use('/api/orders', usersRouter);
 
 app.use(cors({
     origin: "*",
