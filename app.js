@@ -9,11 +9,11 @@ const cors = require('cors');
 
 // Import Routes
 const productsRouter = require('./routes/products');
-const usersRouter = require('./routes/orders');
+const ordersRouter = require('./routes/orders');
 
 // Use Routes
 app.use('/api/products', productsRouter);
-app.use('/api/orders', usersRouter);
+app.use('/api/orders', ordersRouter);
 
 app.use(cors({
     origin: "*",
@@ -30,6 +30,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', productsRouter);
-app.use('/users', usersRouter);
+app.use('/orders', ordersRouter);
 
 module.exports = app;
