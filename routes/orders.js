@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
     .sort({
       id: 1
     })
-  getAll()
+    .getAll()
     .then(orders => {
       if (orders.length > 0) {
         res.status(200).json(orders);
@@ -39,7 +39,6 @@ router.get('/', (req, res) => {
 // GET SINGLE ORDER
 router.get('/:id', async (req, res) => {
   let orderId = req.params.id;
-  console.log(orderId);
 
   database.table('orders_details as od')
     .join([{
@@ -48,7 +47,7 @@ router.get('/:id', async (req, res) => {
       },
       {
         table: 'products as p',
-        on: 'p.id =od.product.id'
+        on: 'p.id =od.product_id'
       },
       {
         table: 'users as u',
@@ -59,7 +58,7 @@ router.get('/:id', async (req, res) => {
     .filter({
       'o.id': orderId
     })
-  getAll()
+    .getAll()
     .then(orders => {
       if (orders.length > 0) {
         res.json(orders);
