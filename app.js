@@ -30,6 +30,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', productsRouter);
-app.use('/orders', ordersRouter);
+app.use('/order', ordersRouter);
 
 module.exports = app;
